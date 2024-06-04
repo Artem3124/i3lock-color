@@ -172,14 +172,14 @@ char wrong_y_expr[32] = "iy\0";
 char greeter_x_expr[32] = "ix\0";
 char greeter_y_expr[32] = "iy\0";
 
-double time_size = 32.0;
-double date_size = 14.0;
-double verif_size = 28.0;
-double wrong_size = 28.0;
-double modifier_size = 14.0;
-double layout_size = 14.0;
-double circle_radius = 90.0;
-double ring_width = 7.0;
+double time_size = 38.0;
+double date_size = 24.0;
+double verif_size = 40.0;
+double wrong_size = 40.0;
+double modifier_size = 20.0;
+double layout_size = 20.0;
+double circle_radius = 180.0;
+double ring_width = 13.0;
 double greeter_size = 32.0;
 
 double timeoutlinewidth = 0;
@@ -190,9 +190,9 @@ double modifieroutlinewidth = 0;
 double layoutoutlinewidth = 0;
 double greeteroutlinewidth = 0;
 
-char* verif_text = "verifying…";
-char* wrong_text = "wrong!";
-char* noinput_text = "no input";
+char* verif_text = "Checking Mum...";
+char* wrong_text = "Mum is dead";
+char* noinput_text = "Do something!";
 char* lock_text = "locking…";
 char* lock_failed_text = "lock failed!";
 int   keylayout_mode = -1;
